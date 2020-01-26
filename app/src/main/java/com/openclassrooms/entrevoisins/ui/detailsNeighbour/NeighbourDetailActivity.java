@@ -59,6 +59,7 @@ public class NeighbourDetailActivity extends AppCompatActivity {
     }
 
 
+    /** Change FAB button color & mark Neighbour as favorite */
     private void yellowStar(){
         Drawable drawable1 = ContextCompat.getDrawable(getApplicationContext(),R.drawable.ic_star_yellow);
         Drawable drawable2 = mStar.getDrawable();
@@ -82,6 +83,7 @@ public class NeighbourDetailActivity extends AppCompatActivity {
     }
 
 
+    /** Get attributes from the neighbour */
     private void infosNeighbour(){
         mBigUsername.setText(mNeighbour.getName());
         mUsername.setText(mNeighbour.getName());
